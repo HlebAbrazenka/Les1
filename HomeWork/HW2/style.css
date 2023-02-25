@@ -1,0 +1,22 @@
+.block2{
+    width: 285px;
+    height: 1225px;
+    box-shadow: 10px -10px 5px white;
+
+    border: 5px solid red;
+    
+}
+
+body{
+    background-image: url("https://antykwariat-torun.pl/environment/cache/images/0_0_productGfx_277736550976ca95e016159bc68577cc.jpg");
+    background-size: 150px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.block2{
+    background-color: gold;
+    color: red;
+
+}
