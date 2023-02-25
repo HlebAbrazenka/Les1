@@ -1,0 +1,38 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+img{
+    width: 25px;
+    height: 20px;
+}
+
+ /*body{
+    background-image: url("https://thumb.tildacdn.com/tild3832-3461-4233-b230-393933616139/-/resize/280x/-/format/webp/Group_750.png");
+    background-size: 150px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+body{
+    background-image: url("https://www.akchabar.kg/media/news/1f50f877-128a-4058-ab8b-803c436ee6c1.jpg.850x445_q82_crop.jpg");
+    background-size: 350px;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#TelRan{
+    width: 200px;
+    height: 100px;
+}
