@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.block div{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+
+
+.block{
+    border: 5px solid red;
+    width: 600px;
+    height: 1500px;
+    margin: 0;
+}
+
+
+
+.block1{
+    background-color: aqua;  
+
+}
+
+
+
+.block2{
+    background-color: greenyellow;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+
+
+
+.block3{
+    background-color: yellow; 
+}
