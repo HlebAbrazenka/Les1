@@ -74,15 +74,15 @@
 //     console.log('Доступ-');
 // }
 
-// function check(num){
-//     if(num % 2 == 0){
-//         console.log("YES");
-//     }
-//     else{
-//         console.log("NO");
-//     }
-// }
-// let num = Number(prompt("Enter"));
+function check(num){
+    if(num % 2 == 0){
+        console.log("YES");
+    }
+    else{
+        console.log("NO");
+    }
+}
+let num = Number(prompt("Enter"));
 
 
 
