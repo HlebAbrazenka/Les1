@@ -75,13 +75,13 @@
 // console.log(isNaN (a))
 
 //let value1 = "100f"
-let value2 = "100"
+// let value2 = "100"
 
-//console.log(isNaN (value1));
-if (isNaN(+value2)){
-    console.log("NaN")
-}
-else{
-    console.log("No-NaN")
-}
+// //console.log(isNaN (value1));
+// if (isNaN(+value2)){
+//     console.log("NaN")
+// }
+// else{
+//     console.log("No-NaN")
+// }
 
