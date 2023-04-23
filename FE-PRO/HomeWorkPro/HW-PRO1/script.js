@@ -44,7 +44,7 @@
 // }
 // else if (b > a, b > c){
 //     console.log(`${b}`)
-// }
+// } 
 // else if (c > a, c > b){
 //     console.log(`${c}`)
 // }
@@ -56,18 +56,27 @@
 // // которое отражает математический знак, например: (+,-,/,*). Необходимо написать простой калькулятор,
 // // который в зависимости от значения переменной sign будет совершать соответствующие математические операции с переменными a и b.
 // // В случаи попытки поделить на 0 программа должна выводить в консоль сообщение: “делить на 0 нельзя”.
-// let a = Number (10);
-// let b = Number (10);
-// let sign = " * "
+// let a = 25;
+// let b = 0;
+// let sign = ' / '
 
-// if (sign = " * "){
-//     console.log(a * b); 
+// if (sign == ' + '){
+//     console.log(a + b); 
 // }
-// if (sign = " + "){
-//     console.log(a + b)
-// }
-// if (sign = " - "){
+
+// else if (sign == ' - '){
 //     console.log(a - b)
+// }
+
+// else if (sign == ' * '){
+//     console.log(a * b)
+// }
+// else if (sign == ' / '){
+//     if (b == 0){
+//        console.log('делить на 0 нельзя')
+//     } else {
+//        console.log(a / b)
+// }
 // }
 // if (sign = " / " , b != 0){
 //     console.log(a / b)
@@ -77,16 +86,16 @@
 // }
 
 // //6)В программе объявлены две переменные — temp и weather. Объявите переменную activity и присвойте ей значение по следующему правилу
-// let temp = Number (15)
+// let temp = 1
 // let weather = "clear"
-// let activity = ""
+// let activity = ' '
 
-// if (temp >= 25, weather = "clear"){
-// console.log(activity = "golf")
+// if (temp >= 25 && weather == "clear"){
+// console.log(activity = 'golf')
 // }
-// else if(temp >= 10, temp <25, weather = "clear"){
-//     console.log(activity = "bowling")
+// else if(temp >= 10 && temp <25 && weather == "clear"){
+//     console.log(activity = 'bowling') // или activity = 'bowling'
 // }
 // else{
-//     console.log(activity = "hikking")
+//     console.log(activity = 'hikking')
 // }
