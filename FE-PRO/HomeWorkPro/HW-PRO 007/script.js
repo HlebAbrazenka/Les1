@@ -63,3 +63,113 @@
 // }
 // console.log('min =', min, ';', 'max =', max);
 //---------------------------------------------------------
+//Нужно найти сумму чётных и нечётных чисел из массива и
+//вывести разницу между ними. Вычесть из большего - меньшее.
+
+// const arr = [1,2,3,5,10,46,11,20]
+// let sumOfEven = 0;
+// let sumOfOdd = 0;
+// for(let i=0; i<arr.length; i++){
+//     if(arr[i] % 2 === 0){
+//         sumOfEven += arr[i];
+//     }
+//     if(arr[i] % 2 != 0){
+//         sumOfOdd += arr[i];
+// }
+// }
+// if(sumOfEven > sumOfOdd){
+//     console.log(sumOfEven - sumOfOdd)
+// }else{
+//     console.log(sumOfOdd - sumOfEven);
+// }
+//---------------------------------------------------------
+//Перевернуть массив [1,2,3,4,5]
+
+// const num = [1,2,3,4,5];
+// for(let i = num.length-1; i>=0; i--){
+//     console.log(num[i]);
+// }
+
+// const num = [1,2,3,4,5];
+// const newNum = [];
+// for(let i = num.length-1; i>=0; i--){
+//     newNum.push(num[i]);
+//  }
+//     console.log(newNum);
+
+//-----------------------------------------------------------
+//Выведите имя и возраст человека в массиве объектов в виде строки
+
+// let array = [{name: 'Alice', age: 30 },
+//  {name: 'Bob', age: 25 },
+//  {name: 'Charlie', age: 35 },
+// ]
+// for(let i=0; i<array.length; i++){
+//     let element = array[i];
+//     console.log(`${element.name} ${element.age}`);
+//     console.log(element.name + " " + element.age);
+// }
+
+//----------------------------------------------------------------
+//Создайте массив объектов, содержащий квадраты чисел от 1 до 10
+//Пример первого объекта: {number: 1, square: 1}
+
+// const arr = []
+// for(let i=1; i < 11; i++){
+//     arr.push({number:i, square:i**2})
+// }
+// console.log(arr);
+
+//-----------------------------------------------------------------
+//Найти общую сумму цен всех товаров из следующего массива
+
+// const array = [
+//     {name: "Laptop", price: 1200},
+//     {name: "Mouse", price: 20},
+//     {name: "Keybord", price: 50},
+//     {name: "Monitor", price: 300},
+// ];
+// let result = 0
+
+// for (let i = 0; i < array.length; i++){
+//     //result = result + array[i].price
+//     result += array[i].price
+// }
+// console.log(result);
+
+//-------------------------------------------------------------------
+//На основе массива продуктов создать новый массив, где
+//только продукты дороже 100
+
+// let newfoods = [];
+// const foods = [
+//     {name: "Laptop", price: 1200},
+//     {name: "Mouse", price: 20},
+//     {name: "Keybord", price: 50},
+//     {name: "Monitor", price: 300},
+// ];
+// for(let i=0; i<foods.length; i++){
+//     if(foods[i].price > 100){
+//         newfoods.push(foods[i]);
+//     }
+// }
+// console.log(newfoods);
+
+//-------------------------------------------------------------------------
+//Создать функцию power, которая принимает 2 числа, как аргумент.
+//Первое число - основание, второе число - степень.
+//Функция возвращает результат арифмитичнского действия
+//пример: power(2,3) => 8 (не использовать **)
+
+// function power(num1, num2){
+//     let total = 1
+//     for(let i=0; i<num2; i++){
+//         total *= num1
+//     }
+//     return total;
+// }
+// console.log(power(3,3));
+
+//---------------------------------------------------------------------------
+
+
