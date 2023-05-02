@@ -27,13 +27,13 @@
 //В случае, если первый аргумент будет true, функция должна вернуть квадрат числа. В противном случае - его корень.
 
 // function changeValue(arg1, arg2){
-// if(arg1 == true){
+// if(arg1){
 //     return arg2 * arg2
 // }else{
 //     return Math.sqrt(arg2)
 // }
 // }
-// let result = changeValue(true,5)
+// let result = changeValue(true,3)
 // console.log(result)
 
 // --------------------------------------------------------------------------------
