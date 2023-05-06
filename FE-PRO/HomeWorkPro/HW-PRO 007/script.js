@@ -171,5 +171,21 @@
 // console.log(power(3,3));
 
 //---------------------------------------------------------------------------
+//--------------------Функция как аргумент----------------------------
 
+// function summ(a,b){
+//     return a+b;
+// }
+// function diff(a,b){
+//     return a-b;
+// }
+// function doSomething(func){
+//     let x =10
+//     let y =15
+//     let result = func(x,y)
+//     console.log(result);
+// }
+// doSomething(summ);
+// doSomething(diff);
+//---------------------------------------------------------------
 
