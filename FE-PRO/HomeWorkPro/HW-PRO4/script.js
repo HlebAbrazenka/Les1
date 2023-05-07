@@ -5,14 +5,24 @@
 //“Не все элементы удовлетворяют указанному условию”, в противном случае 
 //“Все элементы удовлетворяют указанному условию”. Колбек в качестве аргумента должен передавать значение элемента.
 
-function checkEven(array,callback){
-    //let a = checkEven
-    if(callback()){
-        console.log("Все элементы удовлетворяют указанному условию");
-    }else{
-        console.log("Не все элементы удовлетворяют указанному условию");
-    }
-}
-let array = [1,2,3,4,5]
-checkEven(array, (elem) => elem > 0 )
+// function checkEven(array,callback){
+//     let a = checkEven
+//     if(callback()){
+//         console.log("Все элементы удовлетворяют указанному условию");
+//     }else{
+//         console.log("Не все элементы удовлетворяют указанному условию");
+//     }
+// }
+// let array = [1,2,3,4,5]
+// checkEven(array, (elem) => elem > 0 )
 //checkEven(array, (elem) => elem < 4 )
+let elem = [];
+function checkEven(array,callback){
+if(elem == array ){
+    console.log("Все элементы удовлетворяют указанному условию");
+}else{
+    console.log("Не все элементы удовлетворяют указанному условию");
+}
+}
+let array = [1,2,3,4,5];
+checkEven(array, (elem) => elem > 0 );
