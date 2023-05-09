@@ -30,10 +30,11 @@
 // if(arg1){
 //     return arg2 * arg2
 // }else{
-//     return Math.sqrt(arg2)
+//     return Math.sqrt(arg2)//куб(1)
+//     return arg2 ** (1/2)  //куб(2)
 // }
 // }
-// let result = changeValue(true,3)
+// let result = changeValue(false,25)
 // console.log(result)
 
 // --------------------------------------------------------------------------------
@@ -52,6 +53,44 @@
 // let result = countString("строка")
 // console.log(result)
 
+// function countString(string){
+//     let count = 0
+//     for(let i =0; i < string.length; i++){
+//         count += 1
+//     }
+//     return count
+// }
+// console.log(countString("Hleb"));
+
+// function countString(string){
+//         let count = 0
+//         for(let i = 0; i < string.length; i++){
+//             if (string[i] !== "a" && string[i] !== "o" && string[i] !== "y" && string[i] !== "c"){
+//                 count += 1
+//             }
+//         }
+//         return count
+// }
+// console.log(countString("aoucy"));
+
+
+//*Доп задание. доработайте функцию таким образом,
+// чтобы условие включало верхний и нижний регистр (А а, О о, У у, С с)
+
+// let string = "Hello"
+// console.log(string.toUpperCase());
+//---------------------------------------------------------------------------------
+// function countString(string){
+//     let count = 0
+//     for(let i = 0; i < string.length; i++){
+//         let elem = string[i].toLowerCase()
+//         if (elem !== "a" && elem !== "o" && elem !== "y" && elem !== "c"){
+//             count += 1
+//         }
+//     }
+//     return count
+// }
+// console.log(countString("aoucyAOYCU"));
 // --------------------------------------------------------------------------------
 
 //?????//5) Напишите функцию createQuence(num), которая получает в качестве аргумента числовое значение.
@@ -62,3 +101,31 @@
 // }
 // let result = createQuence(1)
 // console.log(result);
+//-----------------------------------------------------------------------------------
+// function createQuence(num){
+//     for(let i = 1; i<= num; i++){
+//         console.log("*");
+//     }
+// }
+// createQuence(2) 
+
+//------------------------------------------------------------------------------------
+
+//  function createQuence(num){
+//     for(let i = 1; i<= num; i++){
+//         console.log("*".repeat(i));
+//     }
+// }
+//     createQuence(5)
+
+//-------------------------------------------------------------------------------------
+
+//  function createQuence(num){
+//     let star = "*"
+//     for(let i = 1; i<= num; i++){
+//         console.log(star);
+//         star += "*"
+//     }
+// }
+//     createQuence(5)
+//-------------------------------------------------------------------------------------

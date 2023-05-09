@@ -243,3 +243,95 @@
 // for(i = 0; i < 5; i++){
 // console.log(numb[i]);
 // }
+//--------------------------------------------------------------
+//--------------------------------------------------------------
+//Напишите функцию changeValue(arg1, arg2), которая принимает два аргумента (булевый тип, число).
+//Функция, в зависимости от первого аргумента (булевого типа) изменить число по следующему правилу: 
+//В случае, если первый аргумент будет true, функция должна вернуть квадрат числа. В противном случае - его корень.
+
+// function changeValue(arg1, arg2){
+// if(arg1){
+//     return arg2 * arg2
+// }else{
+//     return Math.sqrt(arg2)//или куб(1)
+//     return arg2 ** (1/2)  //или куб(2)
+// }
+// }
+// let result = changeValue(false,25)
+// console.log(result)
+//----------------------------------------------------------------
+// function changeValue(arg1, arg2){
+//     return (arg2) ? arg1 ** 2 : arg2 ** 0,5
+// }
+// let result = changeValue(true,25)
+// console.log(result);
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//Напишите функцию countString(arg), которая принимает в качестве аргумента строковый тип и возвращает количество букв.
+//Функция должна игнорировать буквы: а, о, у, с
+
+
+// function countString(string){
+//     let count = 0
+//     for(let i =0; i < string.length; i++){
+//         count += 1
+//     }
+//     return count
+// }
+// console.log(countString("Hleb"));
+//--------------------------------------------------------------------
+// function countString(string){
+//         let count = 0
+//         for(let i = 0; i < string.length; i++){
+//             if (string[i] !== "a" && string[i] !== "o" && string[i] !== "y" && string[i] !== "c"){
+//                 count += 1
+//             }
+//         }
+//         return count
+// }
+// console.log(countString("aoucy"));
+//---------------------------------------------------------------------
+// function countString(string){
+//         let count = 0
+//         for(let i = 0; i < string.length; i++){
+//             let elem = string[i].toLowerCase()
+//             if (elem !== "a" && elem !== "o" && elem !== "y" && elem !== "c"){
+//                 count += 1
+//             }
+//         }
+//         return count
+// }
+// console.log(countString("aoucyAOYCU"));
+//------------------------------------------------------------------------
+//----Изменяет строчные на заглавные буквы (а=>A)
+// let string = "Hello"
+// console.log(string.toUpperCase());
+
+//-------------------------------------------------------------------------
+//Напишите функцию createQuence(num), которая получает в качестве аргумента числовое значение.
+//Функция должна построить последовательность строк в консоле, количество которых зависит от аргумента
+
+// function createQuence(num){
+//     for(let i = 1; i<= num; i++){
+//         console.log("*");
+//     }
+// }
+// createQuence(2)
+
+//-------------------------------------------------------------------------
+// function createQuence(num){
+//     for(let i = 1; i<= num; i++){
+//         console.log("*".repeat(i));
+//            }
+//        }
+//    createQuence(5)  
+//--------------------------------------------------------------------------
+
+// function createQuence(num){
+//     let star = "*"
+//     for(let i = 1; i<= num; i++){
+//         console.log(star);
+//         star += "*"
+//     }
+// }
+//     createQuence(5)
