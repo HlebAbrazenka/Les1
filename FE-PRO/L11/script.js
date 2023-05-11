@@ -40,4 +40,45 @@
 // let result = checkSome(array, (elem => elem === 0))
 // console.log(result);
 
-//----------------------------------------------------------------------------
+//------------------------------------------------------------------------
+
+//console.log('hello'.repeat(2));
+
+//-------------------------------------------------------------------------
+
+// let string = "hello my friend!"
+// let result = string.includes("O my F")
+
+// console.log(result);
+
+//------------------------------------------------------------
+// let string = "hello"
+// function checkString(string, substring) {
+// if(string !== substring){
+// console.log("Данной подстроки нет в строке");
+// }else{
+//     console.log("Данная подстрока сущесвтует в строке");
+// }
+// }
+// checkString("hello world", "o w")
+//------------------------------------------------------
+
+// function checkString(string, substring) {
+//     if(string.includes(substring)){
+//         console.log("Данная подстрока сущесвтует в строке");
+//     }else{
+//         console.log("Данной подстроки нет в строке")
+//     }
+// }
+// checkString("Hello world!", "o worl!")
+
+//---------------------------------------------------------------
+
+// let string = 'date 10.10.10 date 20.20.20 date 30.30.30'
+// let result = string.indexOf("date 2")
+// // let result = string.indexOf("date", 2)
+// console.log(result);
+
+let string = '10.10.10.10.10.10 date 20.20.20 date 30.30.30 date'
+let result = string.indexOf("date", string.indexOf("date") + 1)
+console.log(result);
