@@ -350,3 +350,59 @@
 // plus1()
 //не вышел
 //---------------------------------------------------------------------------
+
+//---------------------------------------------------------------------------
+//-----------Обход массива циклом for ( of )
+// const autoBrands = ['Audi', 'BMW', 'Mers','WV'];
+
+// for(let item of autoBrands){  //item=random(отвечает за каждый элемент массива)
+//     console.log(item);
+// }
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+//---------------Обход массива методом  forEach()
+// const autoBrands = ['Audi', 'BMW', 'Mers','WV'];
+
+// autoBrands.forEach(function(item, index){
+//     console.log(`${item} * ${index}`);   //"*","item", "index" = random
+// })
+//----------------------------------------------------------------------------
+//---Обход массива методом через функцию  forEach()
+// const autoBrands = ['Audi', 'BMW', 'Mers','WV'];
+
+// autoBrands.forEach(printBrand);
+
+// function printBrand (item, index){
+//      console.log(`${item} * ${index}`); //"*","item", "index" = random
+// }
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+//------------------Объекты----------------------------------------------------
+// let userName = "Natallia";
+// let age = 30;
+// let isMarried = true;
+
+// const person = {
+//     userName: "Natallia",
+//     age: 30,
+//     isMarried: true,
+//     profession: "Doktor"
+// }
+
+// console.log(person);
+// console.log(person.userName);
+// console.log(person["age"]);
+
+// let propertyName = "profession"
+// console.log(person[propertyName]);
+
+// person.sex = "Woman"
+// console.log(person);
+
+// delete person.age;   //удаляет часть объекта
+// console.log(person); //тут age
+//------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
