@@ -18,11 +18,13 @@ let phones = [
     '89123456289',
     '+79123456189',
 ]
-function clearNumb(array){
+function changePhone(array){
     for(let i = 0; i < array.length; i++){
-        let index = array[i].indexOf('+')
-    array[i] = array[i].slice(0,index)
-    console.log(array[i]);
+        if(array[i].startsWith('8')){
+            array[i] = array[i].replace('8','+7')
+        }
+    }
+    console.log(array);
 }
-}
-clearNumb(phones)
+changePhone(phones)
+//-------------------------------------------------------------------
