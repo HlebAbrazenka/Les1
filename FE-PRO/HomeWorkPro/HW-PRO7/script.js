@@ -33,15 +33,17 @@
 //Результат: 3
 //----------------------------------------------------------------------------
 
-let array = [1,2,3,4,5]
 
-// function getAvg(array, calc){
-//     for(let i = 0; i < array.length; i++){
-//         if()
-//     }
-// }
+// function getAvg(array) {
+// let sum = 0
+// for(i = 0; i < array.length; i++) {
+// sum += array[i];
+// } 
+// sum = sum / array.length;
+// return sum.toFixed(1);       //toFixed - преобразования числа в строку
+// }   
 
-// for(let elem in array)
+// console.log(getAvg([1,2,3,4,5,6]));
 
 
 //-----------------------------------------------------------------------------
