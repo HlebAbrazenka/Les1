@@ -412,5 +412,80 @@
 // let result = array.join('*')
 // console.log(result);                   //1*2*3
 //-------------------------------------------------------------------------------
+//------------------Методы в объектах--------------------------------------------
+// const person = {
+//     userName: "Natallia",
+//     age: 30,
+//     isMarried: true,
+//     profession: "Doktor",
+//     sayHi: function(){          //добавляет функцию
+//          console.log('hi');
+//     }
+// }
+// person.sayHi()                  //вызывает функцию (hi)
+
+//--------------------------------------------------------------------------------
+//---------Ключевое слово this(выводит без указания)------------------------------
+
+// const person = {
+//     userName: "Natallia",
+//     age: 30,
+//     isMarried: true,
+//     sayHi: function (name){
+//         console.log(this);
+//         console.log(`Hello, ${name}! My name is ${this.userName}`);
+//     }
+// }
+// person.sayHi('Hleb')
+
+//---------------------------------------------------------------------------------
+//-----Объекты обход циклом (for in - может обходить итерируемые)-
+// (не путать с for of - только с итерируемыми)
+// const person = {
+//     userName: "Natallia",
+//     age: 30,
+//     isMarried: true,
+//     sayHi: function (name){
+//         console.log(this);
+//         console.log(`Hello, ${name}! My name is ${this.userName}`);
+//     }
+// }
+
+// for (let key in person){
+//     //console.log(key);
+//     console.log(key, ':', person[key]);
+// }
+
+//----------------------------------------------------------------------------------
+//-------------Классы. Конструкторы объектов
+//     const person = {
+//     userName: "Natallia",
+//     age: 30,
+//     isMarried: true,
+    
+//     }
+
+// class Person{
+//     constructor (userName, age, isMarried){
+//         this.userName = userName;
+//         this.age = age;
+//         this.isMarried = isMarried
+
+//     }
+// }
+
+// const person1 = new Person('Anna', 31, false);
+// const person2 = new Person('Alex', 29, false);
+
+// console.log(person);
+// console.log(person1);
+// console.log(person2);
+
+//----------------------------------------------------------------------------------
+//---------------------Выбор DOM элементов------------------------------------------
+
+//document.querySelector('h2')-выводит первый элемент 'h2'
+//document.querySelector('h2').classList.add('red')-находит и добавляет красную рамку 'h2'
+
 
 
