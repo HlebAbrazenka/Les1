@@ -16,13 +16,14 @@
 //----------------------------------------------------------------------------
 
 // let someObj = {
-// key1: '1',
-// key2: '2',
-// key3: '3',
-// key4: '4',
+// k1: '1',
+// k2: '2',
+// k3: '3',
+// k4: '4',
+// k5: '5',
 // }
 // let result = []
-// function getKeys(obj) {
+// function getKeys() {
 //     for(let elem in someObj){
 //        result.push(elem)
 // }
@@ -41,11 +42,11 @@
 
 // function getAvg(array) {
 // let sum = 0
-// for(i = 0; i < array.length; i++) {
-// sum += array[i];
+// for(elem = 0; elem < array.length; elem++) {
+// sum += array[elem];
 // } 
 // sum = sum / array.length;
-// return sum.toFixed(1);       //toFixed - преобразования числа в строку
+// return sum //.toFixed(1) - переводит число в десятичную форму (0,5);.toFixed(2)-в сотую форму(0,50); .toFixed(0) - НЕ переводит число в десятичную форму (1)
 // }   
 // console.log(getAvg([1,2,3,4,5]));
 
@@ -74,34 +75,21 @@
 
 // let arr = [1,true,'3','value1','9','key']
 // let sum = 0
+
 // function countString(arr){
 // for(let elem of arr){
 //     if(typeof(elem) === 'string'){
 //      sum += 1;
-//     //  console.log(sum);
 //     }
 // }
 //    return console.log(sum);
 // }
 // countString(arr)
 
-// let array = ['1',true,'3','value1',9,'key']
-// let result = 0
-
-// function counterString(array){
-//     for (let elem of array){
-//         if (typeof(elem) === 'string'){
-//             result += 1;
-//         }
-//     }
-//     return console.log(result);
-// }
-// counterString(array)
-
+// let array = [1, true, '3', 'value1', '9', 'key'];
 
 // function countString(arr) {
 //     let count = 0;
-
 //     for (let i = 0; i < arr.length; i++) {
 //       if (typeof arr[i] === 'string') {
 //         count++;
@@ -110,31 +98,7 @@
 
 //     console.log(count);
 //   }
-//   const array = [1, true, '3', 'value1', '9', 'key'];
-// countString(array); // Вывод: 3
-
-// let array = [1,'true','3','value1',9,'key']
-
-// function countString(arr){
-//     for(let elem in array){
-//         if(typeof array[elem] === "string"){
-//             return array[elem]
-//         }
-//     } 
-// }
-// console.log(countString(array))
-
-// let sum1 = [1,true,'3','value1',9,'key'];
-// function countString(arr){
-//     for(let elem in sum1){
-//         if(typeof (elem) === "string"){
-//             console.log(elem)
-//         }
-//     }
-// }
-// countString(sum1)
-
-
+// countString(array);
 
 
 //--------------------------------------------------------------------------------
@@ -159,12 +123,13 @@
 // key3: 'value3',
 // key4: 'value4',
 // }
+
 // let result = []
 // function getEntries(obj){
 //     for(let elem in obj){
 //     result.push([elem, obj[elem]])
 //     }
-//     return result 
+//     return result
 // }
 // console.log(getEntries(someObj));
 
@@ -188,29 +153,28 @@
 //----------------------------------------------------------------------------------------
 
 
-//   array = [1,true,'3','value1',9,'key', 0];
+//   array = [1,true,'3','value1',9,'key'];
 
-//   function arrayToObject(arr) {
+//   function arrayToObject(arr){
 //       let obj = {};
-//       for (let i = 0; i < arr.length; i++) {
+//       for (let i = 0; i < arr.length; i++){
 //         obj['key' + (i + 1)] = arr[i];
-//       }
-//       return obj;
+//       }return obj;
 //     }
-//     let  result = arrayToObject(array);
+//     let result = arrayToObject(array);
 //     console.log(result);
 
 
-const array = [1,true,'3','value1',9,'key', 0];
-function object(){
-let obj = {}
-for(let elem in array ){
- obj['key'+ ++elem]  = array[elem -1] 
-}
-console.log(obj);
-return obj 
-}
-object()
+// const array = [1,true,'3','value1',9,'key', 0];
+// function object(){
+// let obj = {}
+// for(let elem in array ){
+//  obj['key'+ ++elem]  = array[elem -1] 
+// }
+// console.log(obj);
+// return obj 
+// }
+// object()
 
 //-----------------------------------------------------------------------------------------
 
