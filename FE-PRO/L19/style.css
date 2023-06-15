@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px 0px;
+
+    /* margin: 0 auto; */
+}
+
+.elem-1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.elem-2{
+   width: 100px;
+   height: 100px;
+   background-color: green;
+   position: relative;
+   left: 50px;
+   top: 20px;
+}
+
+.elem-3{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.elem-4{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.elem-5{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;;
+}
+
+.elem-6{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+
+.navbar{
+    background-color: red;
+    /* position: fixed; */
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+/* https://cssgridgarden.com/#ru
+
+https://flexboxfroggy.com/#ru
+
+https://docs.emmet.io/cheatsheet-a5.pdf*/
